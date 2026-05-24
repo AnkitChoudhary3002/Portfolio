@@ -2,7 +2,7 @@
 
 A modern, highly interactive, single-page portfolio website designed to showcase my projects, research interests, and engineering skills in Machine Learning and Artificial Intelligence. Built with Next.js (App Router) and inspired by the DeveloperFolio layout, the site focuses on end-to-end ML systems and fluid user experiences.
 
-## 🔗 Live Demo
+##  Live Site
 [(https://portfolio-six-kappa-24.vercel.app/)]
 
 ##  Features
@@ -16,13 +16,6 @@ A modern, highly interactive, single-page portfolio website designed to showcase
 *   **GitHub Integration:** Automatically fetches and displays recent repository highlights via the GitHub REST API.
 *   **Fluid Animations:** Smooth, scroll-triggered animations powered by AOS and Framer Motion, implemented without forced auto-scroll intros for better UX.
 
-##  Technologies Used
-
-*   **Framework:** Next.js 16 (App Router, TypeScript-ready)
-*   **UI & Styling:** React 19, Tailwind CSS 4 (via `@tailwindcss/postcss`), custom utility classes, and `react-parallax-tilt`
-*   **Animations:** Framer Motion, AOS (Animate On Scroll), and `react-type-animation`
-*   **Icons:** `lucide-react` and `react-icons` (incorporating Simple Icons and Font Awesome)
-*   **External APIs:** GitHub REST API
 
 ## Getting Started (Local Development)
 
