@@ -3,7 +3,7 @@
 A modern, highly interactive, single-page portfolio website designed to showcase my projects, research interests, and engineering skills in Machine Learning and Artificial Intelligence. Built with Next.js (App Router) and inspired by the DeveloperFolio layout, the site focuses on end-to-end ML systems and fluid user experiences.
 
 ## 🔗 Live Demo
-[https://portfolio-five-eta-16.vercel.app]((https://portfolio-six-kappa-24.vercel.app/))
+[(https://portfolio-six-kappa-24.vercel.app/)]
 
 ##  Features
 
