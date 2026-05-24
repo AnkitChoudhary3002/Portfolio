@@ -16,6 +16,13 @@ A modern, highly interactive, single-page portfolio website designed to showcase
 *   **GitHub Integration:** Automatically fetches and displays recent repository highlights via the GitHub REST API.
 *   **Fluid Animations:** Smooth, scroll-triggered animations powered by AOS and Framer Motion, implemented without forced auto-scroll intros for better UX.
 
+#  Contact & Collab
+
+I am always open to discussing research internships, collaborations, or ML systems engineering work. Feel free to reach out:
+
+GitHub:[(https://github.com/AnkitChoudhary3002)]
+LinkedIn:[(https://www.linkedin.com/in/ankit-938287352/)]
+Email:[(choudharyankit3002@gmail.com)]
 
 ## Getting Started (Local Development)
 
@@ -63,11 +70,3 @@ This project is optimized for deployment on **Vercel** (recommended), but it is 
 *   **Output Directory:** `.next`
 
 *Note: Connecting your GitHub repository to Vercel will enable automatic redeployments upon every push to the `main` branch.*
-
-#  Contact & Collab
-
-I am always open to discussing research internships, collaborations, or ML systems engineering work. Feel free to reach out:
-
-GitHub:[(https://github.com/AnkitChoudhary3002)]
-LinkedIn:[(https://www.linkedin.com/in/ankit-938287352/)]
-Email:[(choudharyankit3002@gmail.com)]
