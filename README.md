@@ -64,10 +64,10 @@ This project is optimized for deployment on **Vercel** (recommended), but it is 
 
 *Note: Connecting your GitHub repository to Vercel will enable automatic redeployments upon every push to the `main` branch.*
 
-##  Contact & Collab
+#  Contact & Collab
 
 I am always open to discussing research internships, collaborations, or ML systems engineering work. Feel free to reach out:
 
-*   **GitHub:** [AnkitChoudhary3002](https://github.com/AnkitChoudhary3002)
-*   **LinkedIn:** [Ankit](https://www.linkedin.com/in/ankit-938287352/)
-*   **Email:** [choudharyankit3002@gmail.com](mailto:choudharyankit3002@gmail.com)
+GitHub:[(https://github.com/AnkitChoudhary3002)]
+LinkedIn:[(https://www.linkedin.com/in/ankit-938287352/)]
+Email:[(choudharyankit3002@gmail.com)]
