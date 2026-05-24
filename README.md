@@ -20,10 +20,19 @@ A modern, highly interactive, single-page portfolio website designed to showcase
 
 I am always open to discussing research internships, collaborations, or ML systems engineering work. Feel free to reach out:
 
-GitHub:[(https://github.com/AnkitChoudhary3002)]
-LinkedIn:[(https://www.linkedin.com/in/ankit-938287352/)]
-Email:[(choudharyankit3002@gmail.com)]
+<p align="center">
+  <a href="https://github.com/AnkitChoudhary3002">
+    <img src="https://skillicons.dev/icons?i=github" height="50" />
+  </a>
+  
+  <a href="https://www.linkedin.com/in/ankit-938287352/">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="50" />
+  </a>
 
+  <a href="mailto:choudharyankit3002@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="50" />
+  </a>
+</p>
 ## Getting Started (Local Development)
 
 To run this project locally on your machine, follow these steps:
