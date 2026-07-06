@@ -47,6 +47,10 @@
             transition: var(--transition);
         }
 
+        .text-muted {
+            color: var(--text-muted);
+        }
+
         ul {
             list-style: none;
         }
@@ -669,6 +673,7 @@
             <li><a href="#skills" class="nav-link">Skills</a></li>
             <li><a href="#projects" class="nav-link">Projects</a></li>
             <li><a href="#research" class="nav-link">Research</a></li>
+            <li><a href="#internship" class="nav-link">Internship</a></li>
             <li><a href="#resume" class="nav-link">Resume</a></li>
             <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
@@ -697,56 +702,61 @@
         <div class="about-content reveal">
             <div class="about-text">
                 <h3 style="margin-bottom: 1rem;">Bridging Math & Machine Learning</h3>
-                <p>I am currently a Master's student at the National Institute of Technology, Rourkela, specializing in Computational Mathematics and Data Science. Right now, I am also undertaking a summer internship at BITS-Pilani.</p>
+                <p>I am currently a Master's student at the National Institute of Technology, Rourkela, specializing in Computational Mathematics and Data Science.</p>
                 <p>My passion lies in taking complex, messy data and turning it into scalable, production-ready AI systems. Whether it's forecasting climate anomalies or analyzing biomedical signals, I care about building tools that have a tangible impact.</p>
-                <p><strong>Core Interests:</strong> Deep Learning, Optimization Theory, Time Series Analysis, and MLOps.</p>
+                <p><strong>Core Interests:</strong> Machine Learning, Deep Learning, Optimization, Time Series Analysis, and MLOps.</p>
             </div>
             <div class="edu-timeline">
                 <div class="timeline-item glass-card">
                     <div class="timeline-date">Aug 2025 - Present</div>
                     <h3>M.Sc. Computational Mathematics & Data Science</h3>
-                    <p class="text-muted">NIT Rourkela (CGPA: 7.95)</p>
+                    <p class="text-muted">NIT Rourkela (CGPA: 7.80)</p>
                 </div>
             </div>
         </div>
     </section>
+    
 
-    <section id="skills">
-        <h2 class="section-title reveal">Technical Arsenal</h2>
-        <div class="skills-grid reveal">
-            
-            <div class="glass-card skill-category">
-                <h3><i class="fas fa-code highlight"></i> Languages & Web</h3>
-                <div class="skill-chips">
-                    <span class="skill-chip">Python</span>
-                    <span class="skill-chip">C++</span>
-                    <span class="skill-chip">SQL</span>
-                    <span class="skill-chip">HTML/CSS/JS</span>
-                </div>
+    <section id="research">
+        <h2 class="section-title reveal">Research & AI Explanations</h2>
+        <div class="cards-grid reveal">
+            <div class="glass-card">
+                <div class="icon-box"><i class="fas fa-dna"></i></div>
+                <h3>DNA Sequence Prediction</h3>
+                <p class="text-muted" style="margin-top: 1rem;">Explored generative models for biological sequences. Utilizing sequence modeling techniques to identify patterns and predict subsequent nucleotide arrangements based on historical datasets.</p>
             </div>
-
-            <div class="glass-card skill-category">
-                <h3><i class="fas fa-brain highlight"></i> AI & Data Science</h3>
-                <div class="skill-chips">
-                    <span class="skill-chip">Machine Learning</span>
-                    <span class="skill-chip">Scikit-Learn</span>
-                    <span class="skill-chip">Deep Learning</span>
-                    <span class="skill-chip">TensorFlow / Keras</span>
-                    <span class="skill-chip">Pandas / NumPy</span>
-                    <span class="skill-chip">Power BI</span>
-                </div>
+            <div class="glass-card">
+                <div class="icon-box"><i class="fas fa-network-wired"></i></div>
+                <h3>Deep Architecture Experiments</h3>
+                <p class="text-muted" style="margin-top: 1rem;">Conducted comparative studies across CNN, RNN, LSTM, and GRU architectures for time-series forecasting and signal processing to determine optimal temporal feature extraction strategies.</p>
             </div>
-
-            <div class="glass-card skill-category">
-                <h3><i class="fas fa-server highlight"></i> Systems & Deployment</h3>
-                <div class="skill-chips">
-                    <span class="skill-chip">FastAPI</span>
-                    <span class="skill-chip">Docker</span>
-                    <span class="skill-chip">Git / GitHub</span>
-                    <span class="skill-chip">Statistical Modeling</span>
-                </div>
+            <div class="glass-card">
+                <div class="icon-box"><i class="fas fa-microscope"></i></div>
+                <h3>Signal Processing ML</h3>
+                <p class="text-muted" style="margin-top: 1rem;">Applied 4th-order Butterworth bandpass filters for bio-signal preprocessing before feeding segmented data into Deep Learning frameworks to improve classification boundaries.</p>
             </div>
+        </div>
+    </section>
 
+    <section id="internship">
+        <h2 class="section-title reveal">Internship</h2>
+        <div class="glass-card reveal" style="max-width: 980px; margin: 0 auto;">
+            <div style="margin-bottom: 1.5rem;">
+                <div class="timeline-date" style="margin-bottom: 0.75rem;">Research Intern BITS, Pilani | May 2025 - July 2025</div>
+                <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">DNA Sequence Prediction using Deep Learning</h3>
+                <p class="text-muted">Built a deep learning pipeline to predict the next 3 nucleotides in human DNA (GRCh38 genome) bases of preceding context, framing genomic sequence prediction as an autoregressive language-modeling task.</p>
+            </div>
+            <div class="tech-stack" style="margin-bottom: 1.5rem;">
+                <span class="tech-tag">Deep Learning</span>
+                <span class="tech-tag">CNN + Transformer</span>
+                <span class="tech-tag">CNN + BiLSTM</span>
+                <span class="tech-tag">Genomics</span>
+            </div>
+            <div style="display: grid; gap: 1rem; color: var(--text-muted); font-size: 1rem;">
+                <p>Designed and trained two hybrid neural architectures — CNN + Transformer (self-attention) and CNN + BiLSTM — achieving 77.84 percent test accuracy per base against a 25 percent random baseline.</p>
+                <p>Engineered a leak-proof evaluation protocol by splitting train/validation/test sets at the whole-chromosome level (rather than random sampling) to eliminate sequence overlap between splits.</p>
+                <p>Conducted error analysis: measured accuracy separately for repetitive vs. unique genomic regions, per-predicted-position accuracy, and k-mer overlap between train/test sets to distinguish genuine pattern learning from repeat memorization.</p>
+            </div>
         </div>
     </section>
 
@@ -808,36 +818,49 @@
         </div>
     </section>
 
-    <section id="research">
-        <h2 class="section-title reveal">Research & AI Explanations</h2>
-        <div class="cards-grid reveal">
-            <div class="glass-card">
-                <div class="icon-box"><i class="fas fa-dna"></i></div>
-                <h3>DNA Sequence Prediction</h3>
-                <p class="text-muted" style="margin-top: 1rem;">Explored generative models for biological sequences. Utilizing sequence modeling techniques to identify patterns and predict subsequent nucleotide arrangements based on historical datasets.</p>
+    <section id="skills">
+        <h2 class="section-title reveal">Technical Arsenal</h2>
+        <div class="skills-grid reveal">
+            
+            <div class="glass-card skill-category">
+                <h3><i class="fas fa-code highlight"></i> Languages & Web</h3>
+                <div class="skill-chips">
+                    <span class="skill-chip">Python</span>
+                    <span class="skill-chip">C++</span>
+                    <span class="skill-chip">SQL</span>
+                </div>
             </div>
-            <div class="glass-card">
-                <div class="icon-box"><i class="fas fa-network-wired"></i></div>
-                <h3>Deep Architecture Experiments</h3>
-                <p class="text-muted" style="margin-top: 1rem;">Conducted comparative studies across CNN, RNN, LSTM, and GRU architectures for time-series forecasting and signal processing to determine optimal temporal feature extraction strategies.</p>
+
+            <div class="glass-card skill-category">
+                <h3><i class="fas fa-brain highlight"></i> AI & Data Science</h3>
+                <div class="skill-chips">
+                    <span class="skill-chip">Machine Learning</span>
+                    <span class="skill-chip">Scikit-Learn</span>
+                    <span class="skill-chip">Deep Learning</span>
+                    <span class="skill-chip">TensorFlow / Keras</span>
+                    <span class="skill-chip">Pandas / NumPy</span>
+                    <span class="skill-chip">Power BI</span>
+                </div>
             </div>
-            <div class="glass-card">
-                <div class="icon-box"><i class="fas fa-microscope"></i></div>
-                <h3>Signal Processing ML</h3>
-                <p class="text-muted" style="margin-top: 1rem;">Applied 4th-order Butterworth bandpass filters for bio-signal preprocessing before feeding segmented data into Deep Learning frameworks to improve classification boundaries.</p>
+
+            <div class="glass-card skill-category">
+                <h3><i class="fas fa-server highlight"></i> Systems & Deployment</h3>
+                <div class="skill-chips">
+                    <span class="skill-chip">FastAPI</span>
+                    <span class="skill-chip">Docker</span>
+                    <span class="skill-chip">Git / GitHub</span>
+                    <span class="skill-chip">Statistical Modeling</span>
+                </div>
             </div>
+
         </div>
     </section>
+
 
     <section id="certifications">
         <h2 class="section-title reveal">Achievements & Certifications</h2>
         <div class="about-content reveal">
             <div class="edu-timeline">
-                <div class="timeline-item glass-card">
-                    <div class="timeline-date">2026</div>
-                    <h3>Research Internship</h3>
-                    <p class="text-muted">BITS-Pilani</p>
-                </div>
                 <div class="timeline-item glass-card">
                     <div class="timeline-date">2025</div>
                     <h3>Python Essentials Certification</h3>
@@ -864,7 +887,7 @@
                 <i class="fas fa-file-alt" style="font-size: 4rem; color: var(--accent); margin-bottom: 1rem;"></i>
                 <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Ankit's Resume</h3>
                 <p class="text-muted" style="margin-bottom: 2rem;">Latest update: 2026. Includes full breakdown of projects, technical skills, academic history, and contact details.</p>
-                <a href="#" class="btn btn-primary" download><i class="fas fa-download"></i> Download PDF</a>
+                <a href="https://drive.google.com/file/d/1HZqz_M7fVxZm17LVc2oC4wrZkZmI4FoH/view?usp=drive_link" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-download"></i> View Resume</a>
             </div>
         </div>
     </section>
@@ -907,7 +930,7 @@
                     <label class="form-label">Email</label>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" required style="height: 60px;">
+                    <textarea class="form-control" required style="height: 120px; resize: vertical;"></textarea>
                     <label class="form-label">Message</label>
                 </div>
                 <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message <i class="fas fa-paper-plane" style="margin-left: 10px;"></i></button>
