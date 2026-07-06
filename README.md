@@ -10,8 +10,6 @@ A modern, highly interactive, single-page portfolio website designed to showcase
 *   **Interactive Hero Section:** Features an animated mathematical background, dynamic typing effects for AI/ML roles using `TypeAnimation`, and quick call-to-action buttons.
 *   **About & Mindset:** Details my academic background in Computational Mathematics and Data Science at NIT Rourkela and my systems-focused approach to engineering.
 *   **Research Interests:** Highlights my focus areas, including Core ML, Deep Learning, Generative & Probabilistic Models, ML Systems, and Retrieval-Augmented Generation (RAG).
-*   **Featured Projects:** Dedicated showcases for major work such as *Agnirhodhak* (spatiotemporal wildfire early warning), *SafeRoadAI* (road-safety analytics), *AuscultoML* (lung sound disease classification), and contributions to the Amazon ML Challenge.
-*   **Experience & Education:** Clean, card-based layout detailing my academic timeline and internships, including my time at the WSN Lab.
 *   **Animated Tech Stack:** A dynamic, scrollable carousel featuring branded icons for my core tools: Python, PyTorch, TensorFlow, FastAPI, Docker, and various cloud services.
 *   **GitHub Integration:** Automatically fetches and displays recent repository highlights via the GitHub REST API.
 *   **Fluid Animations:** Smooth, scroll-triggered animations powered by AOS and Framer Motion, implemented without forced auto-scroll intros for better UX.
